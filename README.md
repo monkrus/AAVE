@@ -16,11 +16,19 @@ Check Ubuntu version by typing
 Check Node.js and Truffle versions  by typing  
 `node -v` and  `truffle version`
 
-Check Geth version by typing
+Check Geth version by typing.
 `geth version`
+Geth is the command line interface for running a full ethereum node implelented in Go.
 
+To install Geth, run
+`sudo apt-get install software-properties-common`
+`sudo add-apt-repository -y ppa:ethereum/ethereum`
+`sudo apt-get update`
+`sudo apt-get install ethereum`
 
-
+After installing, run
+`geth account new` to create an account on your node
+`geth --help` to check all other options
 
 ## Steps ##
 
@@ -47,9 +55,11 @@ Check Geth version by typing
  
  6. Deploy to a local blockchain
    -`truffle migrate --network development`
-   
+ 
+ 
  7. Deploy onto kovan test network
-   -
+   -geth --kovan account new (for mainnet `geth account new`)
+   
    
 
 
