@@ -8,9 +8,19 @@ The frontend repo is [here](https://github.com/jordicasesnoves/AAVE_Hackaton_fro
 Custom implementation of basic ERC20 token using OpenZeppelin library
 
 ## Prerequisites ##
+Environment: Ubuntu 18.04
 
-Check if Node.js and truffle are installed by typing  
+Check Ubuntu version by typing
+`lsb_release -a`
+
+Check Node.js and Truffle versions  by typing  
 `node -v` and  `truffle version`
+
+Check Geth version by typing
+`geth version`
+
+
+
 
 ## Steps ##
 
@@ -36,6 +46,10 @@ Check if Node.js and truffle are installed by typing
  5. Set up local blockchain. Install Ganache on your machine.https://www.trufflesuite.com/ganache
  
  6. Deploy to a local blockchain
+   -`truffle migrate --network development`
+   
+ 7. Deploy onto kovan test network
+   -
    
 
 
