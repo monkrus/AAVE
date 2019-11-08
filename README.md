@@ -1,9 +1,9 @@
 # AAVE Hackathon
 
 This is the root repo.
-The frontend repo is [here](https://github.com/jordicasesnoves/AAVE_Hackaton_frontend), as we need to split the development. :exclamation: Some additional frontend implementation steps are also located below
+The frontend repo is [here](https://github.com/jordicasesnoves/AAVE_Hackaton_frontend), as we need to split the development. 
 
-
+:exclamation: Some alternative frontend implementation steps are also located below.
 
 Custom implementation of basic ERC20 token using OpenZeppelin library
 
@@ -85,7 +85,16 @@ After installing, run
 #FRONTEND#
 
 
-    
+1. Include the web3.js script in <head>
+ 
+2. Instantiate the web3 instance with a local geth
+
+3. Instantiate the contract with an abi file (this is the interface file that comes when you compile your contracts. 
+   You can find this by looking at the compiled json in /build/contracts/aave.json
+
+4. Find the specific deployed contract with the interface in #3
+
+5. Call functions the contract interface accordingly   
  
    
    
