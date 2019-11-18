@@ -1,4 +1,4 @@
-# AAVE Hackathon
+# Step-by-step instructions on Ethereum blockchain deployment for Ubuntu 18.04
 
 This is the root repo.
 The frontend repo is [here](https://github.com/jordicasesnoves/AAVE_Hackaton_frontend), as we need to split the development. 
