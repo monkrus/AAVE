@@ -5,7 +5,7 @@ The frontend repo is [here](https://github.com/jordicasesnoves/AAVE_Hackaton_fro
 
 :exclamation: Some alternative frontend implementation steps are also located below.
 
-Custom implementation of basic ERC20 token using OpenZeppelin library
+
 
 ## Prerequisites ##
 Environment: Ubuntu 18.04
